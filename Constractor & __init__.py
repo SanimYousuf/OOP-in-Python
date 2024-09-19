@@ -12,3 +12,5 @@ class Phone:
 
 myPhone = Phone('Sanim', 'Samsung', 16000)
 print(myPhone.owner, myPhone.brand, myPhone.price)
+
+myPhone.sendSMS('iPhone 6', 'Hi there!')
