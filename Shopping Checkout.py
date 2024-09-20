@@ -7,6 +7,9 @@ class Shopping:
         product = {'Item' : item, 'Price' : price, 'Quantity' : quantity}
         self.cart.append(product)
 
+    def removeItem(self, item):
+        pass
+
     def checkout(self, amount):
         total = 0
         for item in self.cart:
